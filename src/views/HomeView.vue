@@ -179,7 +179,7 @@
               :img-src="'https://www.conasi.eu/blog/wp-content/uploads/2019/01/ayurveda-prin.jpg'"
               :description="'Ayurveda está reconocida por la Organización Mundial de la Salud como “un sistema médico científico muy bien organizado, con metas y objetivos claramente definidos para la prevención y el tratamiento de diferentes patologías”.'" />
             <NewsCard class="w-3/4"
-              :href-link="'https://www.cigna.com/es-us/knowledge-center/hw/temas-de-salud/ayurveda-aa116840spec'"
+              :href-link="'https://askthescientists.com/es/ayurveda/'"
               :title="'Historia de la Ayurveda'"
               :img-src="'https://espsformacion.com/wp-content/uploads/2020/04/curso-ayurveda.jpg'"
               :description="'Conozca la historia de la Ayurveda y el origen de uno de los métodos de masaje más completos y antiguos para la promoción de la salud.'" />
