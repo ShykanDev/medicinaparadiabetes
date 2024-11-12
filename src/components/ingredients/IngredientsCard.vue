@@ -124,15 +124,15 @@ const props = defineProps({
   box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
   display: flex;
   flex-direction: column;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .card_content {
   position: relative;
   padding: 16px 12px 32px 24px;
   margin: 16px 8px 8px 0;
-  max-height: 290px;
-  overflow-y: scroll;
+  /* max-height: 290px; */
+  /* overflow-y: scroll; */
 }
 
 .card_content::-webkit-scrollbar {
