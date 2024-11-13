@@ -16,7 +16,7 @@
                 class="p-1 my-3 font-bold bg-white rounded-md lg:rounded-lg lg:text-xl lg:p-2 text-rose-600 font-poppins animate-bounce">Conoce
                 más</a>
             </div>
-            <img src="../assets/img/glufacMain.jpg" class="lg:w-2/3 animate-fade-up lg:h-screen" alt="">
+            <img src="../assets/img/glufacMaina.jpg" class="lg:w-2/3 animate-fade-up lg:h-screen" alt="">
           </article>
           <!-- links -->
           <article class="mx-3 my-3">
