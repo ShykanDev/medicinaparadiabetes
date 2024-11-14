@@ -36,7 +36,6 @@ let imgSrc = ref();
 
 onMounted(() => {
   if(imgSrc){
-    console.log(imgSrc)
     switch(props.imgSrc){
       case 'antioxidantes':
         imgSrc.value = antioxidante;
