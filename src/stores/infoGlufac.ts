@@ -15,9 +15,9 @@ export const useInfoGlufac = defineStore('infoGlufac', {
 
     whyChoose1Pt2:'Cada cápsula contiene extractos de plantas conocidas por sus potentes beneficios para la salud, lo que garantiza un enfoque completo y confiable para el bienestar. Al elegir Glufac, optas por una solución segura y sin químicos, ideal para quienes buscan opciones naturales y libres de efectos secundarios. La pureza de sus ingredientes y la calidad de su proceso de fabricación lo diferencian de otros productos en el mercado.',
 
-    haveDiabetes:'Glufac es un suplemento 100% natural diseñado para ser tu aliado en el control de los niveles de glucosa y ayudarte a llevar una vida sana y equilibrada. Basado en la medicina ayurvédica, combina ingredientes poderosos que contribuyen al bienestar integral y apoyan funciones clave como el fortalecimiento del sistema inmunológico y la digestión.',
+    haveDiabetes:'Glufac es un suplemento 100% natural diseñado para ser su aliado en el control de los niveles de glucosa y ayudarle a llevar una vida sana y equilibrada. Basado en la medicina ayurvédica, combina ingredientes poderosos que contribuyen al bienestar integral y apoyan funciones clave como el fortalecimiento del sistema inmunológico y la digestión.',
 
-    haveDiabetesPt2:'Gracias a su fórmula única y segura, Glufac se convierte en una opción ideal para quienes buscan alternativas naturales, sin químicos ni efectos secundarios, para apoyar su salud. Cada cápsula contiene extractos de plantas con reconocidos beneficios en el control de glucosa, aportando una forma eficaz y natural de mejorar tu calidad de vida día a día, en conjunto con la ayurveda y todos sus beneficios.'
+    haveDiabetesPt2:'Gracias a su fórmula única y segura, Glufac se convierte en una opción ideal para quienes buscan alternativas naturales, sin químicos ni efectos secundarios, para apoyar su salud. Cada cápsula contiene extractos de plantas con reconocidos beneficios en el control de glucosa, aportando una forma eficaz y natural de mejorar su calidad de vida día a día, en conjunto con la ayurveda y todos sus beneficios.'
   }),
   getters: {
     getWhatsGlufac: (state) => (n: number) => {

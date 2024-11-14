@@ -2,8 +2,8 @@
     <div class="">
         <MainLayout>
             <template #main>
-              <h2 class=" text-5xl text-center font-bold text-white bg-[#EDCA70]">Ingredientes de GLUFAC</h2>
-              <p class="mb-4 pt-4 text-center font-bold text-lg text-white bg-[#EDCA70]">Estos son los ingredientes principales de GLUFAC, te invitamos a que conozcas cual es el uso de cada uno de ellos</p>
+              <h2 class="text-5xl font-bold text-center text-white bg-orange-400 ">Ingredientes de GLUFAC</h2>
+              <p class="pt-4 mb-4 text-lg font-bold text-center text-white bg-orange-400">Estos son los ingredientes principales de GLUFAC, le invitamos a que conozca cual es el uso de cada uno de ellos</p>
               <div class="grid grid-cols-3">
                 <img class="animate-flip-up" src="../assets/img/frontBottle.png" alt="">
                 <img class="animate-flip-up" src="../assets/img/frontBottleRight.png" alt="">

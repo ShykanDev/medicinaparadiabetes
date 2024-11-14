@@ -6,17 +6,22 @@
         <section class="pt-0 overflow-hidden bg-[#f9f9f9]">
           <article class="w-full overflow-hidden lg:flex lg:items-center">
             <div
-              class="flex flex-col items-center pt-2 bg-[#EDCA70]  lg:items-center lg:flex lg:justify-around lg:w-1/3 lg:w lg:h-screen rounded-bl-md rounded-br-md lg:py-4 ">
-              <h2 class="hidden text-3xl font-extrabold text-center text-white font-poppins animate-fade-down lg:block">
-                Conoce tu aliado 100% natural para la diabetes </h2>
+              class="flex flex-col items-center pt-2 lg:items-center lg:flex lg:justify-around lg:w-1/3 lg:w lg:h-screen rounded-bl-md rounded-br-md lg:py-12">
+              <h2 class="hidden text-3xl font-extrabold text-center text-[#7D3117] font-poppins animate-fade-down lg:block">
+                Conozca su aliado 100% natural para la <strong class="px-1 text-white bg-orange-600">DIABETES</strong> </h2>
               <h1 class="text-xl font-extrabold text-center text-gray-800 lg:text-3xl font-poppins animate-fade-down">
-                <span class="text-white ">Energía natural y apoyo para el control de la diabetes</span>
+                <span class="text-[#7D3117]">Energía natural y apoyo para el 
+                  <strong class="px-1 text-white bg-orange-600">CONTROL DE LA DIABETES</strong>
+                </span>
               </h1>
+              <h2 class="text-xl font-extrabold text-center text-gray-800 lg:text-3xl font-poppins animate-fade-up">
+                <span class="text-green-800 font-varela animate-wiggle">Medicina ayurvedica con origen en la India</span>
+              </h2>
               <a href="#glufac"
-                class="p-1 my-3 font-bold bg-white rounded-md lg:rounded-lg lg:text-xl lg:p-2 text-rose-600 font-poppins animate-bounce">Conoce
+                class="p-1 my-3 font-bold text-white rounded-md lg:rounded-lg lg:text-xl lg:p-2 bg-[#7D3117] font-poppins animate-bounce">Conozca
                 más</a>
             </div>
-            <img src="../assets/img/glufacMain.jpg" class="lg:w-2/3 animate-fade-up lg:h-screen" alt="">
+            <img src="../assets/img/mainHome.jpg" class="lg:w-2/3 animate-fade-up lg:h-screen" alt="">
           </article>
           <!-- links -->
           <article class="mx-3 my-3">
@@ -64,7 +69,7 @@
           <!-- Image and info about Glufac -->
           <section class="flex flex-col items-center justify-between p-4 mt-6 space-y-8 overflow-hidden">
 
-            <CardInfoSm :title="'¿Tienes diabetes?'" :description="stateInfo.getWhatsGlufac(7)"
+            <CardInfoSm :title="'¿Tiene usted diabetes?'" :description="stateInfo.getWhatsGlufac(7)"
               :description2="stateInfo.getWhatsGlufac(8)" :show-img-center="true" :img-top-position="'right'"
               :img-center-width="'w-80'"
               :img-center="'https://images.pexels.com/photos/3233275/pexels-photo-3233275.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'" />
@@ -148,8 +153,8 @@
             <div class="w-full h-[1px] bg-red-700" />
 
 
-            <h2 class="text-3xl font-medium text-center text-rose-800 font-poppins">Conoce que es la ayurveda 🌱</h2>
-            <h3 class="text-base font-medium text-center text-rose-900 font-poppins">Te explica la doctora Ana Paula
+            <h2 class="text-3xl font-medium text-center text-rose-800 font-poppins">Conozca que es la ayurveda 🌱</h2>
+            <h3 class="text-base font-medium text-center text-rose-900 font-poppins">Le explica la doctora Ana Paula
               Dominguez, directora del Instituto de Mexicano de Yoga 🧘🏻‍♀️
             </h3>
             <iframe class="w-full h-[450px]" src="https://www.youtube.com/embed/9vlwgY0p6Sk?si=eexgUT46EIbsXlMa"
@@ -200,13 +205,13 @@
                   <div
                     class="absolute flex flex-col items-center w-full h-full transition-opacity duration-300 ease-out bg-black opacity-0 hover:opacity-70 justify-evenly">
                     <p class="text-xs font-bold text-center text-white font-poppins md:text-3xl"></p>
-                    <p class="text-sm font-bold text-center text-white font-poppins md:text-3xl">Conoce el producto que te ayudará</p>
+                    <p class="text-sm font-bold text-center text-white font-poppins md:text-3xl">Conozca el producto que le ayudará</p>
                   </div>
                   <img class="w-full h-full bg-contain rounded-md" src="https://www.medicinaparaansiedad.com/img/ingredientesport.jpeg" alt="">
                   <p class="absolute text-xs font-bold text-center text-white top-1 font-poppins md:text-3xl">
-                    ¿Te sientes con ansiedad?</p>
+                    ¿Se siente con ansiedad?</p>
                   <p class="absolute text-xs font-bold text-center text-white bottom-1 font-poppins md:text-3xl">
-                    Conoce tu solución aqui</p>
+                    Conozca su solución aqui</p>
                 </a>
               </div>
 
@@ -218,7 +223,7 @@
                   rel="noopener noreferrer">
                   <div
                     class="absolute flex flex-col items-center w-full h-full transition-opacity duration-300 ease-out bg-black opacity-0 hover:opacity-70 justify-evenly">
-                    <p class="text-sm font-bold text-center text-white font-poppins md:text-3xl">Usala con tu alimentos
+                    <p class="text-sm font-bold text-center text-white font-poppins md:text-3xl">Usela con sus alimentos
                       favoritos</p>
                     <p class="text-sm font-bold text-center text-white font-poppins md:text-3xl">Multivitaminico</p>
                     <p class="hidden text-sm font-bold text-center text-white font-poppins md:text-3xl md:block">100%
@@ -238,10 +243,10 @@
         <div class="items-center justify-center w-full p-3 my-3 text-center bg-white rounded-lg shadow-lg font-poppins">
         <h1 class="mb-4 text-3xl font-bold">🔒 Página Segura</h1>
         <p class="mb-4 text-lg">Esta página utiliza <strong class="text-emerald-700">HTTPS</strong> para asegurar la conexión.</p>
-        <p class="mb-4 text-lg">HTTPS (Hypertext Transfer Protocol Secure) es una versión segura de HTTP, el protocolo a través del cual se envían datos entre tu navegador y el sitio web al que estás conectado. La 'S' al final de HTTPS significa 'Secure' (Seguro). Esto significa que toda la comunicación entre tu navegador y el sitio web está encriptada.</p>
-        <p class="mb-4 text-lg">Además, nuestra página cuenta con <strong class="text-orange-700">SSL</strong> (Secure Sockets Layer) para proteger tus datos. 🔐</p>
+        <p class="mb-4 text-lg">HTTPS (Hypertext Transfer Protocol Secure) es una versión segura de HTTP, el protocolo a través del cual se envían datos entre tu navegador y el sitio web al que estás conectado. La 'S' al final de HTTPS significa 'Secure' (Seguro). Esto significa que toda la comunicación entre su navegador y el sitio web está encriptada.</p>
+        <p class="mb-4 text-lg">Además, nuestra página cuenta con <strong class="text-orange-700">SSL</strong> (Secure Sockets Layer) para proteger sus datos. 🔐</p>
         <p class="mb-4 text-lg">SSL es una tecnología estándar de seguridad global que permite la comunicación encriptada entre un navegador web y un servidor web. Esto asegura que todos los datos transmitidos entre el servidor y el navegador permanezcan privados e íntegros.</p>
-        <p id="contact" class="text-lg">Gracias a estas tecnologías, puedes estar seguro de que tu información está protegida mientras navegas en nuestro sitio.</p>
+        <p id="contact" class="text-lg">Gracias a estas tecnologías, puede estar seguro de que su información está protegida mientras navegas en nuestro sitio.</p>
         
     </div>
         </section>

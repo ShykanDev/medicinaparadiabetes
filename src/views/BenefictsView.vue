@@ -2,7 +2,7 @@
     <div class="">
         <MainLayout>
             <template #main>
-                <h1 class="text-4xl lg:text-5xl font-bold text-center text-white py-7 bg-[#EDCA70] font-poppins">Conoce los beneficios de GLUFAC</h1>
+                <h1 class="text-4xl font-bold text-center text-white bg-orange-400 lg:text-5xl py-7 font-poppins">Conozca los BENEFICIOS de GLUFAC</h1>
                 <h3></h3>
                 <!-- List of benefits -->
                  <section class="flex flex-wrap justify-around gap-5 p-5 ">
