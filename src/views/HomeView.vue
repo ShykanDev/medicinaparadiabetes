@@ -5,13 +5,21 @@
         <!-- Intro -->
         <section class="pt-0 overflow-hidden bg-[#f9f9f9]">
           <article class="w-full overflow-hidden lg:flex lg:items-center">
+  <!-- Imagen principal (aparece primero en pantallas pequeñas) -->
+  <img 
+    src="../assets/img/mainHome.jpg" 
+    class="w-full animate-fade-up lg:w-2/3 lg:h-screen lg:order-2" 
+    alt="Main Home Image">
+
+  <!-- Contenido de texto -->
   <div
-    class="flex flex-col items-center pt-2 lg:items-center lg:flex lg:justify-around lg:w-1/3 lg:h-screen rounded-bl-md rounded-br-md bg-gradient-to-l from-yellow-50 to-yellow-100 lg:py-10">
+    class="flex flex-col items-center pt-2 bg-gradient-to-l from-yellow-50 to-yellow-100 rounded-bl-md rounded-br-md lg:items-center lg:flex lg:justify-around lg:w-1/3 lg:h-screen lg:py-10 lg:order-1">
     <h2 class="hidden text-3xl font-extrabold text-center text-[#7D3117] font-poppins animate-fade-down lg:block">
-      Conozca su aliado 100% natural para la <strong class="px-1 text-white bg-orange-600">DIABETES</strong>
+      Conozca su aliado 100% natural para la 
+      <strong class="px-1 text-white bg-orange-600">DIABETES</strong>
     </h2>
     <h1 class="text-xl font-extrabold text-center text-gray-800 lg:text-3xl font-poppins animate-fade-down">
-      <span class="text-[#7D3117] ">Energía natural y apoyo para el 
+      <span class="text-[#7D3117]">Energía natural y apoyo para el 
         <strong class="px-1 text-white bg-orange-600">CONTROL DE LA DIABETES</strong>
       </span>
     </h1>
@@ -19,14 +27,15 @@
       <h2 class="text-xl font-extrabold text-center text-gray-800 lg:text-3xl font-poppins animate-fade-up">
         <span class="text-white bg-emerald-700 font-varela">Medicina ayurvédica con origen milenario en la India.</span>
       </h2>
-      <img class="w-36" src="https://i.ibb.co/VqZ4mch/saint-Indian-removebg-preview.png" alt="">
+      <img class="w-36" src="https://i.ibb.co/VqZ4mch/saint-Indian-removebg-preview.png" alt="Icon Image">
     </div>
     <a href="#glufac"
-      class="p-1 my-3 font-bold text-white rounded-md lg:rounded-lg lg:text-xl lg:p-2 bg-[#7D3117] font-poppins animate-bounce">Conozca
-      más</a>
+      class="p-1 my-3 font-bold text-white rounded-md lg:rounded-lg lg:text-xl lg:p-2 bg-[#7D3117] font-poppins animate-bounce">
+      Conozca más
+    </a>
   </div>
-  <img src="../assets/img/mainHome.jpg" class="lg:w-2/3 animate-fade-up lg:h-screen" alt="">
 </article>
+
 
           <!-- links -->
           <article class="mx-3 my-3">
